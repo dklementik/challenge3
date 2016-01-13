@@ -1,0 +1,169 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  font-family: 'News Cycle', sans-serif;
+}
+nav{
+  width: 100%;
+  height: 105px;
+  background-color: rgba(255, 255, 255, .8);
+  /*margin-right: 160px;*/
+  line-height: 105px;
+  max-width: 1000px;
+  background-color: #e6e6e6;
+}
+header{
+  background-color: #e6e6e6;
+}
+section{
+  padding-top: 100px;
+}
+nav h2{
+  float: left;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'News Cycle', sans-serif;
+  color: #2b3f48;
+  /*margin-left: 145px;*/
+}
+nav ul{
+  float: right;
+  /*margin-right: 160px;*/
+}
+nav li {
+  float: left;
+  color: #2b3f48;
+  list-style: none;
+  margin-right: 40px;
+}
+nav ul li a{
+  display:inline-block;
+  color: #2b3f48;
+  text-decoration: none;
+  font-size: 17px;
+  list-style: none;
+}
+nav a:hover{
+  color: #27ae61;
+}
+nav, .fond{
+  text-align: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.premier{
+  /*height: 825px;*/
+  background: url(banner.png) no-repeat;
+  background-size: cover;
+  background-color: #27ae61;
+  text-align: center;
+  margin: auto;
+  padding-bottom: 120px;
+}
+.premier img{
+  border-radius: 50%;
+  margin-bottom: 100px;
+  margin-right: 40px;
+  height: 160px;
+  width: 160px;
+  transition: all 1.5s ease-out;
+  box-shadow: 0px 0px 20px;
+  color: white;
+}
+.premier img:hover{
+  width: 200px;
+  height: 200px;
+}
+h1{
+  font-size: 55px;
+  color: white;
+  margin-bottom: 35px;
+}
+h2{
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 65px;
+}
+.blanc{
+  font-size: 17px;
+  color: white;
+}
+button{
+  width: 265px;
+  height: 65px;
+  /*margin-bottom: 100px;*/
+  margin-top: 75px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.bouton1{
+  background-color: #2b3f48;
+  color: white;
+}
+.bouton1:hover{
+  color: #31AA65;
+}
+.deux{
+  padding-bottom: 120px;
+  background-color: #eee;
+
+}
+.gris{
+  font-size: 17px;
+  color: #656565;
+}
+h3{
+  font-size: 55px;
+  color: #2b3f48;
+  margin-bottom: 35px;
+}
+.bouton2{
+  background-color: #27ae61;
+  color: white;
+}
+.bouton2:hover{
+  color: #2b3f48;
+}
+.trois{
+  padding-bottom: 120px;
+  background-color: #27ae61;
+}
+.trois a{
+  color: white;
+}
+.trois a:hover{
+  color: #2b3f48;
+}
+.bouton3{
+  color: #27ae61;
+}
+.bouton3:hover{
+  color: #2b3f48;
+}
+.fond h4{
+  color: #6f6f6f;
+  font-size: 22px;
+  margin-bottom: 65px;
+}
+footer{
+  height: 205px;
+  background-color: #eee;
+  font-size: 17px;
+  color: #656565;
+}
+footer p{
+  line-height: 205px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+footer a{
+  text-decoration: none;
+  color: #2b3f48;
+}
